@@ -53,10 +53,10 @@ INPUT D:\MikTex\fonts\tfm\jknappen\ec\tcrm0900.tfm
 INPUT D:\MikTex\fonts\tfm\jknappen\ec\ecrm1200.tfm
 INPUT D:\MikTex\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT D:\MikTex\fonts\tfm\jknappen\ec\ecbx1000.tfm
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.aux
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
@@ -74,19 +74,11 @@ INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi9.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmsy9.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmsy9.pfb
