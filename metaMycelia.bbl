@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{ataei2021neomycelia}
+Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
+  data systems. In: 2021 28th Asia-Pacific Software Engineering Conference
+  (APSEC). pp. 452--462. IEEE (2021)
+
+\bibitem{AtaeiACIS}
+Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
+  literature review  (2020)
+
+\bibitem{SigmaSurvey}
+Computing, S.: Bridging the gap between data and business teams (2020),
+  \url{https://www.sigmacomputing.com/resources/data-language-barrier/}
+
+\bibitem{Huberty}
+Huberty, M.: Awaiting the second big data revolution: from digital noise to
+  value creation. Journal of Industry, Competition and Trade  \textbf{15}(1),
+  35--47 (2015)
+
+\bibitem{NewVantageSurvey}
+Partners, N.: Big data and ai executive survey 2021 (2021),
+  \url{https://www.supplychain247.com/paper/big_data_and_ai_executive_survey_2021/pragmadik}
+
+\bibitem{AtaeiHype}
+Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
+  technologies: Big data as a service  (2017)
+
+\bibitem{internet2019internet}
+Stats, I.L.: Internet live stats (2019),
+  \url{https://www.internetlivestats.com/}
+
+\bibitem{GartnerSury}
+White, A.: Our top data and analytics predicts for 2019 (2019),
+  \url{https://blogs.gartner.com/andrew_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/}
+
+\end{thebibliography}
