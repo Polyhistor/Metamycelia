@@ -1,0 +1,50 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{ataei2021neomycelia}
+Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
+  data systems. In: 2021 28th Asia-Pacific Software Engineering Conference
+  (APSEC). pp. 452--462. IEEE (2021)
+
+\bibitem{AtaeiACIS}
+Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
+  literature review  (2020)
+
+\bibitem{SigmaSurvey}
+Computing, S.: Bridging the gap between data and business teams (2020),
+  \url{https://www.sigmacomputing.com/resources/data-language-barrier/}
+
+\bibitem{Huberty}
+Huberty, M.: Awaiting the second big data revolution: from digital noise to
+  value creation. Journal of Industry, Competition and Trade  \textbf{15}(1),
+  35--47 (2015)
+
+\bibitem{NewVantageSurvey}
+Partners, N.: Big data and ai executive survey 2021 (2021),
+  \url{https://www.supplychain247.com/paper/bi\_data\_and\_ai\_executive\_survey\_2021/pragmadik}
+
+\bibitem{AtaeiBigDataEnvirons}
+Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
+  Journal of Computer Science and Network Security (IJCSNS)  \textbf{17}(3),
+  ~38 (2017)
+
+\bibitem{AtaeiHype}
+Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
+  technologies: Big data as a service  (2017)
+
+\bibitem{sivarajah2017critical}
+Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
+  data challenges and analytical methods. Journal of Business Research
+  \textbf{70},  263--286 (2017)
+
+\bibitem{internet2019internet}
+Stats, I.L.: Internet live stats (2019),
+  \url{https://www.internetlivestats.com/}
+
+\bibitem{GartnerSury}
+White, A.: Our top data and analytics predicts for 2019 (2019),
+  \url{https://blogs.gartner.com/andrew\_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/}
+
+\end{thebibliography}
