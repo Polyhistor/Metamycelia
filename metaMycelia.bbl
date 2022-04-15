@@ -12,9 +12,19 @@ Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
 Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
   literature review  (2020)
 
+\bibitem{Cloutier}
+Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
+  concept of reference architectures. Systems Engineering  \textbf{13}(1),
+  14--27 (2010)
+
 \bibitem{SigmaSurvey}
 Computing, S.: Bridging the gap between data and business teams (2020),
   \url{https://www.sigmacomputing.com/resources/data-language-barrier/}
+
+\bibitem{Derras}
+Derras, M., Deruelle, L., Douin, J.M., Levy, N., Losavio, F., Pollet, Y.,
+  Reiner, V.: Reference architecture design: A practical approach. In: ICSOFT.
+  pp. 633--640
 
 \bibitem{Huberty}
 Huberty, M.: Awaiting the second big data revolution: from digital noise to
