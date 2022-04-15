@@ -6,48 +6,50 @@ The style file: splncs04.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
 Warning--I didn't find a database entry for "mckines"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "bayer"
 Warning--empty journal in AtaeiACIS
 Warning--empty year in Derras
 Warning--empty journal in AtaeiHype
-You've used 12 entries,
+You've used 14 entries,
             2850 wiz_defined-function locations,
-            671 strings with 6594 characters,
-and the built_in function-call counts, 5923 in all, are:
-= -- 456
-> -- 184
-< -- 10
-+ -- 79
-- -- 64
-* -- 371
-:= -- 760
-add.period$ -- 9
-call.type$ -- 12
-change.case$ -- 72
+            684 strings with 6912 characters,
+and the built_in function-call counts, 6652 in all, are:
+= -- 511
+> -- 198
+< -- 11
++ -- 85
+- -- 68
+* -- 406
+:= -- 855
+add.period$ -- 10
+call.type$ -- 14
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 529
-empty$ -- 557
-format.name$ -- 71
-if$ -- 1286
+cite$ -- 17
+duplicate$ -- 603
+empty$ -- 637
+format.name$ -- 75
+if$ -- 1449
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 106
-newline$ -- 42
-num.names$ -- 24
-pop$ -- 231
+int.to.str$ -- 14
+missing$ -- 119
+newline$ -- 48
+num.names$ -- 28
+pop$ -- 264
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 62
 quote$ -- 0
-skip$ -- 165
+skip$ -- 188
 stack$ -- 0
-substring$ -- 293
-swap$ -- 283
-text.length$ -- 10
+substring$ -- 323
+swap$ -- 315
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 56
 warning$ -- 3
-while$ -- 49
-width$ -- 14
-write$ -- 111
-(There were 4 warnings)
+while$ -- 56
+width$ -- 16
+write$ -- 129
+(There were 6 warnings)
