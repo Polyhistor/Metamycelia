@@ -12,6 +12,14 @@ Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
 Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
   literature review  (2020)
 
+\bibitem{birukounexof}
+Birukou, A.: Nexof-ra
+
+\bibitem{buschmann1996pattern}
+Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., Stal, M.:
+  Pattern-oriented system architecture: a system of patterns, chapter 2.3
+  (1996)
+
 \bibitem{Cloutier}
 Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
   concept of reference architectures. Systems Engineering  \textbf{13}(1),
@@ -26,6 +34,11 @@ Derras, M., Deruelle, L., Douin, J.M., Levy, N., Losavio, F., Pollet, Y.,
   Reiner, V.: Reference architecture design: A practical approach. In: ICSOFT.
   pp. 633--640
 
+\bibitem{gamma1995design}
+Gamma, E., Helm, R., Johnson, R., Johnson, R.E., Vlissides, J., et~al.: Design
+  patterns: elements of reusable object-oriented software. Pearson Deutschland
+  GmbH (1995)
+
 \bibitem{Huberty}
 Huberty, M.: Awaiting the second big data revolution: from digital noise to
   value creation. Journal of Industry, Competition and Trade  \textbf{15}(1),
@@ -36,6 +49,23 @@ Iso, I.: Information technology — reference architecture for service oriented
   architecture (soa ra) — part 1: Terminology and concepts for soa.
   International Organization for Standardization p.~51 (2016),
   \url{https://www.iso.org/standard/63104.html}
+
+\bibitem{kazman1994saam}
+Kazman, R., Bass, L., Abowd, G., Webb, M.: Saam: A method for analyzing the
+  properties of software architectures. In: Proceedings of 16th International
+  Conference on Software Engineering. pp. 81--90. IEEE (1994)
+
+\bibitem{nakagawa2014consolidating}
+Nakagawa, E.Y., Guessi, M., Maldonado, J.C., Feitosa, D., Oquendo, F.:
+  Consolidating a process for the design, representation, and evaluation of
+  reference architectures. In: 2014 IEEE/IFIP Conference on Software
+  Architecture. pp. 143--152. IEEE (2014)
+
+\bibitem{nakagawa2012ramodel}
+Nakagawa, E.Y., Oquendo, F., Becker, M.: Ramodel: A reference model for
+  reference architectures. In: 2012 Joint Working IEEE/IFIP Conference on
+  Software Architecture and European Conference on Software Architecture. pp.
+  297--301. IEEE (2012)
 
 \bibitem{NASA}
 NASA: Reference architecture for space data systems (2008)
@@ -53,6 +83,11 @@ Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
 Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
   technologies: Big data as a service  (2017)
 
+\bibitem{santos2013checklist}
+Santos, J.F.M., Guessi, M., Galster, M., Feitosa, D., Nakagawa, E.Y.: A
+  checklist for evaluation of reference architectures of embedded systems (s).
+  In: SEKE. vol.~13, pp.~1--4 (2013)
+
 \bibitem{sivarajah2017critical}
 Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
   data challenges and analytical methods. Journal of Business Research
@@ -61,6 +96,11 @@ Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
 \bibitem{internet2019internet}
 Stats, I.L.: Internet live stats (2019),
   \url{https://www.internetlivestats.com/}
+
+\bibitem{stricker2010creating}
+Stricker, V., Lauenroth, K., Corte, P., Gittler, F., De~Panfilis, S., Pohl, K.:
+  Creating a reference architecture for service-based systems--a pattern-based
+  approach. In: Towards the Future Internet, pp. 149--160. IOS Press (2010)
 
 \bibitem{GartnerSury}
 White, A.: Our top data and analytics predicts for 2019 (2019),

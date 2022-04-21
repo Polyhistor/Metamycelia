@@ -9,47 +9,49 @@ Warning--I didn't find a database entry for "mckines"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "bayer"
 Warning--empty journal in AtaeiACIS
+Warning--empty journal in birukounexof
+Warning--empty year in birukounexof
 Warning--empty year in Derras
 Warning--empty journal in AtaeiHype
-You've used 14 entries,
+You've used 22 entries,
             2850 wiz_defined-function locations,
-            684 strings with 6912 characters,
-and the built_in function-call counts, 6652 in all, are:
-= -- 511
-> -- 198
-< -- 11
-+ -- 85
-- -- 68
-* -- 406
-:= -- 855
-add.period$ -- 10
-call.type$ -- 14
-change.case$ -- 80
+            727 strings with 8611 characters,
+and the built_in function-call counts, 11513 in all, are:
+= -- 902
+> -- 389
+< -- 17
++ -- 164
+- -- 138
+* -- 711
+:= -- 1480
+add.period$ -- 24
+call.type$ -- 22
+change.case$ -- 147
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 603
-empty$ -- 637
-format.name$ -- 75
-if$ -- 1449
+cite$ -- 27
+duplicate$ -- 1014
+empty$ -- 1069
+format.name$ -- 152
+if$ -- 2511
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 119
-newline$ -- 48
-num.names$ -- 28
-pop$ -- 264
+int.to.str$ -- 22
+missing$ -- 207
+newline$ -- 72
+num.names$ -- 44
+pop$ -- 460
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 112
 quote$ -- 0
-skip$ -- 188
+skip$ -- 313
 stack$ -- 0
-substring$ -- 323
-swap$ -- 315
-text.length$ -- 11
+substring$ -- 556
+swap$ -- 527
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 3
-while$ -- 56
-width$ -- 16
-write$ -- 129
-(There were 6 warnings)
+type$ -- 86
+warning$ -- 5
+while$ -- 94
+width$ -- 24
+write$ -- 206
+(There were 8 warnings)
