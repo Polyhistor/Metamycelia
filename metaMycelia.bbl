@@ -3,6 +3,11 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
+\bibitem{angelov2008towards}
+Angelov, S., Trienekens, J.J., Grefen, P.: Towards a method for the evaluation
+  of reference architectures: Experiences from a case. In: European Conference
+  on Software Architecture. pp. 225--240. Springer (2008)
+
 \bibitem{ataei2021neomycelia}
 Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
   data systems. In: 2021 28th Asia-Pacific Software Engineering Conference
@@ -11,6 +16,12 @@ Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
 \bibitem{AtaeiACIS}
 Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
   literature review  (2020)
+
+\bibitem{bayer1999pulse}
+Bayer, J., Flege, O., Knauber, P., Laqua, R., Muthig, D., Schmid, K., Widen,
+  T., DeBaud, J.M.: Pulse: A methodology to develop software product lines. In:
+  Proceedings of the 1999 symposium on Software reusability. pp. 122--131
+  (1999)
 
 \bibitem{birukounexof}
 Birukou, A.: Nexof-ra
@@ -58,6 +69,12 @@ Iso, I.: Information technology — reference architecture for service oriented
 Kazman, R., Bass, L., Abowd, G., Webb, M.: Saam: A method for analyzing the
   properties of software architectures. In: Proceedings of 16th International
   Conference on Software Engineering. pp. 81--90. IEEE (1994)
+
+\bibitem{KazmanATAM}
+Kazman, R., Klein, M., Barbacci, M., Longstaff, T., Lipson, H., Carriere, J.:
+  The architecture tradeoff analysis method. In: Proceedings. Fourth IEEE
+  International Conference on Engineering of Complex Computer Systems (Cat. No.
+  98EX193). pp. 68--78. IEEE
 
 \bibitem{nakagawa2014consolidating}
 Nakagawa, E.Y., Guessi, M., Maldonado, J.C., Feitosa, D., Oquendo, F.:

@@ -7,52 +7,52 @@ Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
 Warning--I didn't find a database entry for "mckines"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "bayer"
 Warning--empty journal in AtaeiACIS
 Warning--empty journal in birukounexof
 Warning--empty year in birukounexof
 Warning--empty year in Derras
 Warning--empty year in GALSTER
+Warning--empty year in KazmanATAM
 Warning--empty journal in AtaeiHype
-You've used 26 entries,
+You've used 29 entries,
             2850 wiz_defined-function locations,
-            747 strings with 9392 characters,
-and the built_in function-call counts, 13470 in all, are:
-= -- 1049
-> -- 467
-< -- 18
-+ -- 197
-- -- 166
-* -- 828
-:= -- 1744
-add.period$ -- 30
-call.type$ -- 26
-change.case$ -- 174
+            763 strings with 10163 characters,
+and the built_in function-call counts, 15700 in all, are:
+= -- 1236
+> -- 558
+< -- 21
++ -- 235
+- -- 200
+* -- 969
+:= -- 2024
+add.period$ -- 38
+call.type$ -- 29
+change.case$ -- 206
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 1189
-empty$ -- 1248
-format.name$ -- 183
-if$ -- 2928
+cite$ -- 36
+duplicate$ -- 1370
+empty$ -- 1434
+format.name$ -- 220
+if$ -- 3422
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 246
-newline$ -- 84
-num.names$ -- 52
-pop$ -- 547
+int.to.str$ -- 29
+missing$ -- 285
+newline$ -- 93
+num.names$ -- 58
+pop$ -- 633
 preamble$ -- 1
-purify$ -- 134
+purify$ -- 157
 quote$ -- 0
-skip$ -- 359
+skip$ -- 420
 stack$ -- 0
-substring$ -- 633
-swap$ -- 606
-text.length$ -- 18
+substring$ -- 749
+swap$ -- 708
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 6
-while$ -- 108
-width$ -- 28
-write$ -- 243
+type$ -- 112
+warning$ -- 7
+while$ -- 124
+width$ -- 31
+write$ -- 274
 (There were 9 warnings)

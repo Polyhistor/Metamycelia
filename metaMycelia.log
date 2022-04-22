@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  22 APR 2022 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  22 APR 2022 20:56
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
@@ -221,43 +221,39 @@ LaTeX Warning: Citation `mckines' on page 1 undefined on input line 60.
 
 [1
 
-{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-
-LaTeX Warning: Citation `bayer' on page 3 undefined on input line 100.
-
-[3] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl" [4]
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl" [5]
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 []\T1/cmr/m/n/9 Partners, N.: Big data and ai ex-ec-u-tive sur-vey 2021 (2021),
  []
 
 
-Overfull \hbox (58.075pt too wide) in paragraph at lines 89--91
+Overfull \hbox (58.075pt too wide) in paragraph at lines 106--108
 \T1/cmr/m/n/9 https://www.supplychain247.com/paper/bi_data_and_ai_executive_survey_2021/pragmadik 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 []\T1/cmr/m/n/9 White, A.: Our top data and an-a-lyt-ics pre-dicts for 2019 (2019),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 \T1/cmr/m/n/9 https://blogs.gartner.com/andrew_white/2019/01/03/our-top-data-and-
  []
 
 ) [6] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.aux") ) 
 Here is how much of TeX's memory you used:
- 1840 strings out of 480795
- 24947 string characters out of 2913777
- 269040 words of memory out of 3000000
- 17860 multiletter control sequences out of 15000+200000
+ 1843 strings out of 480795
+ 24995 string characters out of 2913777
+ 269052 words of memory out of 3000000
+ 17863 multiletter control sequences out of 15000+200000
  540974 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,6n,25p,938b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,25p,941b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (6 pages, 128620 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (6 pages, 131530 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
+ 312 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
