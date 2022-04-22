@@ -3,6 +3,12 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
+\bibitem{angelov2009classification}
+Angelov, S., Grefen, P., Greefhorst, D.: A classification of software reference
+  architectures: Analyzing their success and effectiveness. In: 2009 Joint
+  Working IEEE/IFIP Conference on Software Architecture \& European Conference
+  on Software Architecture. pp. 141--150. IEEE (2009)
+
 \bibitem{angelov2008towards}
 Angelov, S., Trienekens, J.J., Grefen, P.: Towards a method for the evaluation
   of reference architectures: Experiences from a case. In: European Conference
