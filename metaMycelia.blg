@@ -12,46 +12,47 @@ Warning--empty journal in AtaeiACIS
 Warning--empty journal in birukounexof
 Warning--empty year in birukounexof
 Warning--empty year in Derras
+Warning--empty year in GALSTER
 Warning--empty journal in AtaeiHype
-You've used 22 entries,
+You've used 26 entries,
             2850 wiz_defined-function locations,
-            727 strings with 8611 characters,
-and the built_in function-call counts, 11513 in all, are:
-= -- 902
-> -- 389
-< -- 17
-+ -- 164
-- -- 138
-* -- 711
-:= -- 1480
-add.period$ -- 24
-call.type$ -- 22
-change.case$ -- 147
+            747 strings with 9392 characters,
+and the built_in function-call counts, 13470 in all, are:
+= -- 1049
+> -- 467
+< -- 18
++ -- 197
+- -- 166
+* -- 828
+:= -- 1744
+add.period$ -- 30
+call.type$ -- 26
+change.case$ -- 174
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 1014
-empty$ -- 1069
-format.name$ -- 152
-if$ -- 2511
+cite$ -- 32
+duplicate$ -- 1189
+empty$ -- 1248
+format.name$ -- 183
+if$ -- 2928
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 207
-newline$ -- 72
-num.names$ -- 44
-pop$ -- 460
+int.to.str$ -- 26
+missing$ -- 246
+newline$ -- 84
+num.names$ -- 52
+pop$ -- 547
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 134
 quote$ -- 0
-skip$ -- 313
+skip$ -- 359
 stack$ -- 0
-substring$ -- 556
-swap$ -- 527
-text.length$ -- 17
+substring$ -- 633
+swap$ -- 606
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 86
-warning$ -- 5
-while$ -- 94
-width$ -- 24
-write$ -- 206
-(There were 8 warnings)
+type$ -- 100
+warning$ -- 6
+while$ -- 108
+width$ -- 28
+write$ -- 243
+(There were 9 warnings)
