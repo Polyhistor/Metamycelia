@@ -96,7 +96,6 @@ Based on the premises discussed above, RAs can be considered effective for addre
 \end{enumerate}
 
 \section{Research Methodology}
-
 There are several approaches to systematic development of RAs. In one effort, Cloutier et al \cite{Cloutier} demonstrated a high-level model for development of RAs through collection of contemporary architectural patterns and advancements. Clouterier's approach is driven from the Stevens Institute of Technology forum for systems engineers and tend to explicate RAs from a system engineering point of view. In another effort, Bayer et al \cite{bayer1999pulse} introduced a method for creation of RAs for product line development called PuLSE DSSA. This methodology is inspired by the works of Kazman et al \cite{kazman1994saam} and in specific their architecture evaluation method; SAAM. Therefore it tends to pivot around scenarios for creation of candidate architectures which results in the intended RA. 
 
 Stricker et al \cite{stricker2010creating} presented the idea of pattern based RA for service based systems and used patterns as first class citizens. This study, inspired by the works of Buschmann \cite{buschmann1996pattern}, and Gamma et al \cite{gamma1995design} portrays the RA as amalgamation of various patterns that are structured into different categories namely; high-level patterns, abstract patterns, and implementation patterns. This study is part of the NEXOF-RA \cite{birukounexof} project. 
@@ -117,16 +116,31 @@ The methodology chosen for this study is constituent of 6 steps which are respec
 
 Lastly, it is worth mentioning that this research methodology is iterative, implying that the results yielded from the last step (evaluation) will determine the subsequent iteration until the artefact reaches saturation (research objectives).
 
-\subsection{Decision on type of the RA}
-
+\subsection{Step 1: Decision on type of the RA}
 Precursor to development of the RA, it's effective to determine the type of it. The type is an important factor as it illuminates on the structure, the data to be collected and objective of the RA. To determine the type of the RA, we used the classification framework provided by Angelov et al \cite{angelov2009classification} and the SLR conducted by Ataei et al \cite{AtaeiACIS}. 
 
 This classification is made up of five major RA types based on three major dimensions namely goal, context, and design. These dimensions each have their own sub-dimensions. Dimensions and sub-dimensions are derived by the means of interrogatives. In this classification framework, RAs are categorized in two major groups; 1) standardization RAs, and 2) facilitation RAs. The study provides a good list of available RAs for different categories, which helps with clarification. 
 
 The domain driven distributed RA chosen for the purposes of this study pursues two essential goals; 1) openness and interoperability between different heterogenous components of BD ecosystem and 2) facilitation of BD system development and data engineering. Accordingly, the output artefact is classified as 'classical standardization RA designed to be implemented in multiple organizations'. 
 
+\subsection{Step 2: Selection of Design Strategy}
+According to Galster et al \cite{GALSTER} and Angelov et al \cite{angelov2008towards}, RAs can have two major design strategies to them; 1) RAs that are based on existing patterns, principles and architectures, and 2) RAs that are developed from scratch. Designing RAs from scratch is scarce and usually happens in areas that have received no attention (could be BD in 2004). On the other hand, RAs are proven more successful when built from the proven practices \cite{Cloutier}. 
 
+The RA developed for the purposes of this study is a research-based RA based on existing RAs, concrete architectures, patterns, standards and best practices.
 
+\subsection*{Step 3: Empirical Acquisition of Data}
+Due to limitations witnessed by the Galster et al's methodology, we have augmented this phase to increase transparency and systematicity, by employing a systematic literature review (SLR) for data collection. 
+
+This phase is comprising of three major undertakings; 1) identification of data sources, 2) capturing data from the selected sources and 3) synthesis of the selected data. 
+
+\subsubsection{Identification of Data Sources}
+
+For this sub-phase, we employed the ProSA-RA's 'information sources investigation'. This has provided us with guidelines necessary to capture ancillary and focal knowledge and theories necessary to understand the target domain, which laid the foundation of the RA development. 
+
+To unearth the essential architectural quanta, we selected our sources as 'publications'. In order to capture the essence of existing body of knowledge from publications, we conducted a systematic literature review (SLR) following the guidelines of PRISMA presented by Moher et al \cite{Shamseer}. The main objective of this SLR is to find common architectural constructs among existing BD architectures. This SLR is an extension of our recent work \cite{AtaeiACIS} which covered all the RAs by 2020. 
+
+We followed the exact methodology as described in \cite{AtaeiACIS}, but this time for the years 2021 and 2022. Databases chosen for this SRL includes ScienceDirect, IEEE Explore, SpringerLink, ACM
+library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The search keywords were  ’Big Data Reference Architectures’, ’Reference Architectures in the domain of Big Data’, and ’Reference Architectures and Big Data’. The result of this SLR yielded 3 more BD RAs (\cite{castellanos2021smart}, \cite{sang2017simplifying}, \cite{AtaeiApsec})
 
 %
 % ---- Bibliography ----

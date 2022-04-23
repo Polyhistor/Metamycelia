@@ -14,6 +14,13 @@ Angelov, S., Trienekens, J.J., Grefen, P.: Towards a method for the evaluation
   of reference architectures: Experiences from a case. In: European Conference
   on Software Architecture. pp. 225--240. Springer (2008)
 
+\bibitem{AtaeiApsec}
+Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
+  data systems. In: 2021 28th Asia-Pacific Software Engineering Conference
+  (APSEC). pp. 452--462. IEEE Computer Society, Los Alamitos, CA, USA (dec
+  2021). \doi{10.1109/APSEC53868.2021.00052},
+  \url{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}
+
 \bibitem{ataei2021neomycelia}
 Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
   data systems. In: 2021 28th Asia-Pacific Software Engineering Conference
@@ -36,6 +43,11 @@ Birukou, A.: Nexof-ra
 Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., Stal, M.:
   Pattern-oriented system architecture: a system of patterns, chapter 2.3
   (1996)
+
+\bibitem{castellanos2021smart}
+Castellanos, C., Perez, B., Correal, D.: Smart transportation: A reference
+  architecture for big data analytics. In: Smart Cities: A Data Analytics
+  Perspective, pp. 161--179. Springer (2021)
 
 \bibitem{Cloutier}
 Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
@@ -121,10 +133,21 @@ Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
 Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
   technologies: Big data as a service  (2017)
 
+\bibitem{sang2017simplifying}
+Sang, G.M., Xu, L., Vrieze, P.d.: Simplifying big data analytics systems with a
+  reference architecture. In: Working Conference on Virtual Enterprises. pp.
+  242--249. Springer (2017)
+
 \bibitem{santos2013checklist}
 Santos, J.F.M., Guessi, M., Galster, M., Feitosa, D., Nakagawa, E.Y.: A
   checklist for evaluation of reference architectures of embedded systems (s).
   In: SEKE. vol.~13, pp.~1--4 (2013)
+
+\bibitem{Shamseer}
+Shamseer, L., Moher, D., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M.,
+  Shekelle, P., Stewart, L.A.: Preferred reporting items for systematic review
+  and meta-analysis protocols (prisma-p) 2015: elaboration and explanation. Bmj
+   \textbf{349} (2015)
 
 \bibitem{sivarajah2017critical}
 Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
