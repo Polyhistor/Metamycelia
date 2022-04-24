@@ -128,19 +128,45 @@ According to Galster et al \cite{GALSTER} and Angelov et al \cite{angelov2008tow
 
 The RA developed for the purposes of this study is a research-based RA based on existing RAs, concrete architectures, patterns, standards and best practices.
 
-\subsection*{Step 3: Empirical Acquisition of Data}
+\subsection{Step 3: Empirical Acquisition of Data}
 Due to limitations witnessed by the Galster et al's methodology, we have augmented this phase to increase transparency and systematicity, by employing a systematic literature review (SLR) for data collection. 
 
 This phase is comprising of three major undertakings; 1) identification of data sources, 2) capturing data from the selected sources and 3) synthesis of the selected data. 
 
-\subsubsection{Identification of Data Sources}
+\subsubsection{Identification of Data Sources\\}
 
 For this sub-phase, we employed the ProSA-RA's 'information sources investigation'. This has provided us with guidelines necessary to capture ancillary and focal knowledge and theories necessary to understand the target domain, which laid the foundation of the RA development. 
 
 To unearth the essential architectural quanta, we selected our sources as 'publications'. In order to capture the essence of existing body of knowledge from publications, we conducted a systematic literature review (SLR) following the guidelines of PRISMA presented by Moher et al \cite{Shamseer}. The main objective of this SLR is to find common architectural constructs among existing BD architectures. This SLR is an extension of our recent work \cite{AtaeiACIS} which covered all the RAs by 2020. 
 
 We followed the exact methodology as described in \cite{AtaeiACIS}, but this time for the years 2021 and 2022. Databases chosen for this SRL includes ScienceDirect, IEEE Explore, SpringerLink, ACM
-library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The search keywords were  ’Big Data Reference Architectures’, ’Reference Architectures in the domain of Big Data’, and ’Reference Architectures and Big Data’. The result of this SLR yielded 3 more BD RAs (\cite{castellanos2021smart}, \cite{sang2017simplifying}, \cite{AtaeiApsec})
+library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. 
+
+The search keywords were  ’Big Data Reference Architectures’, ’Reference Architectures in the domain of Big Data’, and ’Reference Architectures and Big Data’. The result of this SLR yielded 3 more BD RAs (\cite{castellanos2021smart}, \cite{sang2017simplifying}, \cite{AtaeiApsec}). Our inclusion, exclusion, and quality criteria can be found in the original paper. 
+
+By the result of the SLR, 89 studies pooled, out which 68 selected. These 68 studies are comprising of journal papers, conference papers, book chapters, tech reports, tech surveys, white papers, standards, dissertations and PhD thesis. More statistics can be found in the origin paper. 
+
+\subsubsection{Capturing data from the selected sources\\}
+After having pooled quality literature, the study embarked in the process of capturing data. We used to software Nvivo for coding, labeling and classifying studies. 
+
+\subsubsection*{Synthesizing Data\\}
+Codes highlighted patterns and patterns resulted in themes, which grounded the design theories necessary to build this RA. Our aim was to capture the essence of practice and project it into our RA. 
+
+\subsection{Construction of the RA}
+
+Based on the themes, patterns and theories emerged from the previous step, the design and development of the RA initiated. Integral to this phase is the components that the RA should contain, how they should be integrated, how they should communicate, and what are the architectural tradeoffs. 
+
+To describe the RA, we followed ISO/IEC/IEEE 42010 standard \cite{ISO42010}. This standards is tailored for concrete architectures, so we did not fully conform to it, but rather the good and relevant parts are taken. For instance, expression of the architecture through architectural description language (ADLs), architecture viewpoints, and statements of corresponding rules have had great influence in the design adn development of this RA. 
+
+A key challenge was perhaps determination of right level of abstraction; to strike a balance between the specificity of micro-patterns and generality of high-level architectural approaches. 
+
+In our observation, BD RAs today to do not adhere to a common vocabulary for architectural descriptions, and most RA developments are driven by a small set of lexicon that author defines and utilizes for representation. This makes the process of analysis and comparison more difficult, as there is no level playing field. 
+
+Inspired by the body of evidence, and illuminated by the limitations we've witnessed in other studies, we decided to adhere several architectural views into on and express it through a multi-layer modeling language called Archimate \cite{lankhorst2010anatomy}. Archimate has been chosen firstly because it's a mature language developed by the collaboration of academics and practitioners through the umbrella of Open Group, and secondly because it is listed as a standard ADL in ISO/IEC/IEEE 42010. 
+
+\subsection{Enabling RA with variability}
+
+One of integral elements that help with instantiation of the RA is variability. This enables RA to remain useful as a priori artefact when it comes down to organization-specific regulations, and regional policies that may constrain the architect's freedom in design decisions. 
 
 %
 % ---- Bibliography ----

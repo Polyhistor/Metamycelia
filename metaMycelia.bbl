@@ -94,6 +94,11 @@ Kazman, R., Klein, M., Barbacci, M., Longstaff, T., Lipson, H., Carriere, J.:
   International Conference on Engineering of Complex Computer Systems (Cat. No.
   98EX193). pp. 68--78. IEEE
 
+\bibitem{lankhorst2010anatomy}
+Lankhorst, M.M., Proper, H.A., Jonkers, H.: The anatomy of the archimate
+  language. International Journal of Information System Modeling and Design
+  (IJISMD)  \textbf{1}(1),  1--32 (2010)
+
 \bibitem{nakagawa2014consolidating}
 Nakagawa, E.Y., Guessi, M., Maldonado, J.C., Feitosa, D., Oquendo, F.:
   Consolidating a process for the design, representation, and evaluation of
@@ -153,6 +158,10 @@ Shamseer, L., Moher, D., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M.,
 Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
   data challenges and analytical methods. Journal of Business Research
   \textbf{70},  263--286 (2017)
+
+\bibitem{ISO42010}
+International Organization~for Standardization~(ISO/IEC), I.: Iso/iec/ieee
+  42010:2011 (2017), \url{https://www.iso.org/standard/50508.html}
 
 \bibitem{internet2019internet}
 Stats, I.L.: Internet live stats (2019),
