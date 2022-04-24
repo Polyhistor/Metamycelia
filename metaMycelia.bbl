@@ -49,6 +49,11 @@ Castellanos, C., Perez, B., Correal, D.: Smart transportation: A reference
   architecture for big data analytics. In: Smart Cities: A Data Analytics
   Perspective, pp. 161--179. Springer (2021)
 
+\bibitem{chen2011systematic}
+Chen, L., Babar, M.A.: A systematic review of evaluation of variability
+  management approaches in software product lines. Information and Software
+  Technology  \textbf{53}(4),  344--362 (2011)
+
 \bibitem{Cloutier}
 Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
   concept of reference architectures. Systems Engineering  \textbf{13}(1),
@@ -72,6 +77,11 @@ Gamma, E., Helm, R., Johnson, R., Johnson, R.E., Vlissides, J., et~al.: Design
   patterns: elements of reusable object-oriented software. Pearson Deutschland
   GmbH (1995)
 
+\bibitem{hallerbach2010capturing}
+Hallerbach, A., Bauer, T., Reichert, M.: Capturing variability in business
+  process models: the provop approach. Journal of Software Maintenance and
+  Evolution: Research and Practice  \textbf{22}(6-7),  519--546 (2010)
+
 \bibitem{Huberty}
 Huberty, M.: Awaiting the second big data revolution: from digital noise to
   value creation. Journal of Industry, Competition and Trade  \textbf{15}(1),
@@ -93,6 +103,11 @@ Kazman, R., Klein, M., Barbacci, M., Longstaff, T., Lipson, H., Carriere, J.:
   The architecture tradeoff analysis method. In: Proceedings. Fourth IEEE
   International Conference on Engineering of Complex Computer Systems (Cat. No.
   98EX193). pp. 68--78. IEEE
+
+\bibitem{la2009questionnaire}
+La~Rosa, M., van~der Aalst, W.M., Dumas, M., Ter~Hofstede, A.H.:
+  Questionnaire-based variability modeling for system configuration. Software
+  \& Systems Modeling  \textbf{8}(2),  251--274 (2009)
 
 \bibitem{lankhorst2010anatomy}
 Lankhorst, M.M., Proper, H.A., Jonkers, H.: The anatomy of the archimate
@@ -129,6 +144,10 @@ Norta, A., Grefen, P.: Developing a reference architecture for
 Partners, N.: Big data and ai executive survey 2021 (2021),
   \url{https://www.supplychain247.com/paper/bi\_data\_and\_ai\_executive\_survey\_2021/pragmadik}
 
+\bibitem{pohl2005software}
+Pohl, K., B{\"o}ckle, G., Van Der~Linden, F.: Software product line
+  engineering: foundations, principles, and techniques, vol.~1. Springer (2005)
+
 \bibitem{AtaeiBigDataEnvirons}
 Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
   Journal of Computer Science and Network Security (IJCSNS)  \textbf{17}(3),
@@ -137,6 +156,10 @@ Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
 \bibitem{AtaeiHype}
 Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
   technologies: Big data as a service  (2017)
+
+\bibitem{rosemann2007configurable}
+Rosemann, M., Van~der Aalst, W.M.: A configurable reference modelling language.
+  Information systems  \textbf{32}(1),  1--23 (2007)
 
 \bibitem{sang2017simplifying}
 Sang, G.M., Xu, L., Vrieze, P.d.: Simplifying big data analytics systems with a
@@ -148,11 +171,19 @@ Santos, J.F.M., Guessi, M., Galster, M., Feitosa, D., Nakagawa, E.Y.: A
   checklist for evaluation of reference architectures of embedded systems (s).
   In: SEKE. vol.~13, pp.~1--4 (2013)
 
+\bibitem{schmid2004customizable}
+Schmid, K., John, I.: A customizable approach to full lifecycle variability
+  management. Science of Computer Programming  \textbf{53}(3),  259--284 (2004)
+
 \bibitem{Shamseer}
 Shamseer, L., Moher, D., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M.,
   Shekelle, P., Stewart, L.A.: Preferred reporting items for systematic review
   and meta-analysis protocols (prisma-p) 2015: elaboration and explanation. Bmj
    \textbf{349} (2015)
+
+\bibitem{sinnema2006covamof}
+Sinnema, M., Deelstra, S., Hoekstra, P.: The covamof derivation process. In:
+  International Conference on Software Reuse. pp. 101--114. Springer (2006)
 
 \bibitem{sivarajah2017critical}
 Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
@@ -171,6 +202,11 @@ Stats, I.L.: Internet live stats (2019),
 Stricker, V., Lauenroth, K., Corte, P., Gittler, F., De~Panfilis, S., Pohl, K.:
   Creating a reference architecture for service-based systems--a pattern-based
   approach. In: Towards the Future Internet, pp. 149--160. IOS Press (2010)
+
+\bibitem{svahnberg2005taxonomy}
+Svahnberg, M., Van~Gurp, J., Bosch, J.: A taxonomy of variability realization
+  techniques. Software: Practice and experience  \textbf{35}(8),  705--754
+  (2005)
 
 \bibitem{wg2015iso}
 WG, I.: Iso/iec 26550: 2015-software and systems engineering--reference model
