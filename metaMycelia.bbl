@@ -3,6 +3,10 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
+\bibitem{angelov2008contracting}
+Angelov, S., Grefen, P.: An e-contracting reference architecture. Journal of
+  Systems and Software  \textbf{81}(11),  1816--1844 (2008)
+
 \bibitem{angelov2009classification}
 Angelov, S., Grefen, P., Greefhorst, D.: A classification of software reference
   architectures: Analyzing their success and effectiveness. In: 2009 Joint
@@ -30,11 +34,21 @@ Ataei, P., Litchfield, A.: Neomycelia: A software reference architecturefor big
 Ataei, P., Litchfield, A.T.: Big data reference architectures, a systematic
   literature review  (2020)
 
+\bibitem{Avgeriou}
+Avgeriou, P.: Describing, instantiating and evaluating a reference
+  architecture: A case study. Enterprise Architecture Journal  \textbf{342},
+  1--24 (2003)
+
 \bibitem{bayer1999pulse}
 Bayer, J., Flege, O., Knauber, P., Laqua, R., Muthig, D., Schmid, K., Widen,
   T., DeBaud, J.M.: Pulse: A methodology to develop software product lines. In:
   Proceedings of the 1999 symposium on Software reusability. pp. 122--131
   (1999)
+
+\bibitem{Bengtsson}
+Bengtsson, P., Lassing, N., Bosch, J., van Vliet, H.: Architecture-level
+  modifiability analysis (alma). Journal of Systems and Software
+  \textbf{69}(1-2),  129--147 (2004)
 
 \bibitem{birukounexof}
 Birukou, A.: Nexof-ra
@@ -53,6 +67,12 @@ Castellanos, C., Perez, B., Correal, D.: Smart transportation: A reference
 Chen, L., Babar, M.A.: A systematic review of evaluation of variability
   management approaches in software product lines. Information and Software
   Technology  \textbf{53}(4),  344--362 (2011)
+
+\bibitem{Cioroaica}
+Cioroaica, E., Chren, S., Buhnova, B., Kuhn, T., Dimitrov, D.: Towards creation
+  of a reference architecture for trust-based digital ecosystems. In:
+  Proceedings of the 13th European Conference on Software Architecture-Volume
+  2. pp. 273--276
 
 \bibitem{Cloutier}
 Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
@@ -76,6 +96,12 @@ GALSTER, M., AVGERIOU, P.: Empirically-grounded reference architectures. Joint
 Gamma, E., Helm, R., Johnson, R., Johnson, R.E., Vlissides, J., et~al.: Design
   patterns: elements of reusable object-oriented software. Pearson Deutschland
   GmbH (1995)
+
+\bibitem{graaf2005evaluating}
+Graaf, B., Van~Dijk, H., Van~Deursen, A.: Evaluating an embedded software
+  reference architecture-industrial experience report. In: Ninth European
+  Conference on Software Maintenance and Reengineering. pp. 354--363. IEEE
+  (2005)
 
 \bibitem{hallerbach2010capturing}
 Hallerbach, A., Bauer, T., Reichert, M.: Capturing variability in business
@@ -113,6 +139,10 @@ La~Rosa, M., van~der Aalst, W.M., Dumas, M., Ter~Hofstede, A.H.:
 Lankhorst, M.M., Proper, H.A., Jonkers, H.: The anatomy of the archimate
   language. International Journal of Information System Modeling and Design
   (IJISMD)  \textbf{1}(1),  1--32 (2010)
+
+\bibitem{Maier}
+Maier, M., Serebrenik, A., Vanderfeesten, I.: Towards a big data reference
+  architecture. University of Eindhoven  (2013)
 
 \bibitem{nakagawa2014consolidating}
 Nakagawa, E.Y., Guessi, M., Maldonado, J.C., Feitosa, D., Oquendo, F.:
@@ -156,6 +186,11 @@ Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
 \bibitem{AtaeiHype}
 Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
   technologies: Big data as a service  (2017)
+
+\bibitem{rohling2019reference}
+Rohling, A.J., Neto, V.V.G., Ferreira, M.G.V., Dos~Santos, W.A., Nakagawa,
+  E.Y.: A reference architecture for satellite control systems. Innovations in
+  Systems and Software Engineering  \textbf{15}(2),  139--153 (2019)
 
 \bibitem{rosemann2007configurable}
 Rosemann, M., Van~der Aalst, W.M.: A configurable reference modelling language.
@@ -215,5 +250,10 @@ WG, I.: Iso/iec 26550: 2015-software and systems engineering--reference model
 \bibitem{GartnerSury}
 White, A.: Our top data and analytics predicts for 2019 (2019),
   \url{https://blogs.gartner.com/andrew\_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/}
+
+\bibitem{Williams}
+Williams, L.G., Smith, C.U.: Pasasm: a method for the performance assessment of
+  software architectures. In: Proceedings of the 3rd international workshop on
+  Software and performance. pp. 179--189
 
 \end{thebibliography}

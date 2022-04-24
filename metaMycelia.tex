@@ -172,7 +172,29 @@ Variability management is a well studied concept in Business Process Management 
 
 Our study is inspired by SPLE way of variability management, and choose to represent variability by the means of "annotation" as recommended as on of the three accepted approaches by Galster et al \cite{GALSTER}.
 
-\subsection*{Evaluation of the RA}
+\subsection{Evaluation of the RA}
+
+This last phase of the methodology is to ensure that RA has achieved it's goal, and to test its effectiveness and usability. Based on Galster et al's work, a quality of the RA can be deduced based on its utility, correctness and how efficiently it can be adopted and instantiated.  
+
+Howbeit, the evaluation of the RAs is a known challenge among researchers \cite{angelov2008contracting} \cite{Avgeriou} \cite{Cioroaica} \cite{Maier}, and while there are many well-established methods for assessing concrete architectures such as ATAM \cite{KazmanATAM}, ALMA \cite{Bengtsson}, PASA \cite{Williams}, and SAAM \cite{kazman1994saam}, many of these methodologies fall short in evaluating RAs. 
+
+This is due to the inherent properties of RAs such as level of abstraction, and lack of clearly defined group of stakeholders. Various authors have attempted to solve this issue; such as Angelov et al's (\cite{angelov2008towards}) attempt on modifying ATAM and extended it to resonate well with RAs, or Rohling et al's approach (\cite{rohling2019reference}) by mapping the business requirements against the RA, or the works of Graff et al (\cite{graaf2005evaluating}) and their attempt to extend SAAM to evaluate RAs by reducing the organizational impact in the evaluation process.
+
+Inspired by all these studies, and to provide with a strong evaluation, we will first instantiate a prototype of the RA, and then evaluate the prototype in practice, using ATAM. 
+
+\section{A Domain-driven Distributed RA for BD Systems}
+
+If the aspiration to enhance every business aspect with data needs to come to fruition, there is a need for a different approach to BD architecture. Traditional approaches to data storage and crunching, while proven to be effective in handling volume aspect of data, fall short in addressing other characteristics of it; increase heterogeneity and proliferation of data sources (variety), the rate at which data arrives and needs to be processed (velocity), the quality and provenance of data (veracity), and the rate at which data mutates (variability).
+
+\subsection{State of the Art}
+
+ Studies and analysis of available body of evidence, highlights 3 generations of BD architecture;
+
+\begin{enumerate}
+    \item \textbf{Enterprise Data Warehouse:} existing prior to the term big data was coined, data warehouses are perhaps some of the oldest approaches for storing data for business intelligence. This architecture usually revolves around a monolithic data warehouse, ETL jobs, and data visualization softwares such as Microsoft Power BI. Data warehouses are designed underlying assumptions, and cannot effectively address the characteristics of big data. This issue is exacerbated as the data sources and heterogeneity of the data increases. Moreover, as the system grows, and data consumers and data providers increases, this architecture suffers from hard to maintain ETL jobs, slower transaction processing and visualization that can only be effectively achieved by a group of hyper-specialized individuals. This creates silos, which in turn creates frictions. Furthermore, the monolithic nature of theses kind of architectures make scaling and maintenance a daunting task, increasing the time it takes for new transformations to be added to the workload.
+    \item \textbf{Data Lake:} to address some of the issues with data warehouses, a new BD ecosystem emerged. This new ecosystem revolved around Data Lake, in a way that there isn't much transformation on data before storage, and everything is dumped into data lake and retrieved when necessary. Although data lake architectures addressed some of the issues with data warehouse architectures such as data variety, they are still not optimal. As data consumer and provider increases, the chances of creating data swamp increases. In addition, because there is no data owner that owns various pieces in the data lake, data quality decreases over time. This also means that the whole BD stack is managed by a group of siloed hyper-specialized data engineers with ever-increasing backlogs. Data engineers are usually oblivious with the semantics and value of the data they are crunching, they simply do not know how data is useful to the business, and which domain it belongs to. This will overtime decrease data quality, and makes maintenance and scaling a daunting task. 
+    \item \textbf{Cloud Base Solutions:}  
+\end{enumerate}
 
 %
 % ---- Bibliography ----
