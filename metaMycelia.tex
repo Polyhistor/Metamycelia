@@ -193,8 +193,30 @@ If the aspiration to enhance every business aspect with data needs to come to fr
 \begin{enumerate}
     \item \textbf{Enterprise Data Warehouse:} existing prior to the term big data was coined, data warehouses are perhaps some of the oldest approaches for storing data for business intelligence. This architecture usually revolves around a monolithic data warehouse, ETL jobs, and data visualization softwares such as Microsoft Power BI. Data warehouses are designed underlying assumptions, and cannot effectively address the characteristics of big data. This issue is exacerbated as the data sources and heterogeneity of the data increases. Moreover, as the system grows, and data consumers and data providers increases, this architecture suffers from hard to maintain ETL jobs, slower transaction processing and visualization that can only be effectively achieved by a group of hyper-specialized individuals. This creates silos, which in turn creates frictions. Furthermore, the monolithic nature of theses kind of architectures make scaling and maintenance a daunting task, increasing the time it takes for new transformations to be added to the workload.
     \item \textbf{Data Lake:} to address some of the issues with data warehouses, a new BD ecosystem emerged. This new ecosystem revolved around Data Lake, in a way that there isn't much transformation on data before storage, and everything is dumped into data lake and retrieved when necessary. Although data lake architectures addressed some of the issues with data warehouse architectures such as data variety, they are still not optimal. As data consumer and provider increases, the chances of creating data swamp increases. In addition, because there is no data owner that owns various pieces in the data lake, data quality decreases over time. This also means that the whole BD stack is managed by a group of siloed hyper-specialized data engineers with ever-increasing backlogs. Data engineers are usually oblivious with the semantics and value of the data they are crunching, they simply do not know how data is useful to the business, and which domain it belongs to. This will overtime decrease data quality, and makes maintenance and scaling a daunting task. 
-    \item \textbf{Cloud Base Solutions:}  
+    \item \textbf{Cloud Base Solutions:} Considering the sheer cost of running a data engineering cluster on-premise, the current talent gap faced in the market, and complexity of provisioning the infrastructure of ever-increasing data processing loads \cite{AtaeiHype}, many companies have decided to go Cloud for their big data solutions. This has emerged a new generation of BD solutions based on cloud services. This generation is usually leaned towards architectures such as Lambda or Kappa for stream processing or batch processing, or frameworks that unify the two like Databricks or Apache Beam. Whereas this generation of BD architectures might bring reduced cost and complexity for data architects, it still suffers from the same integral architectural challenges; no clear data domains, siloed hyper-specialized data engineers, and a monolithic pipeline BD architecture.
 \end{enumerate}
+
+The key ingredient that embroil all these approaches is in their underlying monolithic data pipeline architecture that tends to account for all sort of data without any consideration for quality. This means that data that logically belongs to different domains are now lumped together and crunched in one architectural quantum, making scalability and maintainability a daunting task. This also implies that a data engineer who works on these data have no clue, degrading data quality over time, making time to insight for data analysis longer, and stressing data engineers and senior managers.
+
+To address these issues, we therefore explore a domain driven distributed architecture for BD systems and post that this architecture can address some of the challenges discussed. This architecture is inspired by the advancements in software engineering architectures, and in specific microservices \cite{bellemare2020building}, domain driven design \cite{evans2004domain}, and reactive systems \cite{aceto2007reactive}. 
+
+\section*{The Artefact}
+
+This artefact (RA) is built underlying several principles; 
+
+\begin{enumerate}
+    \item Domain-driven: to address data quality, siloed teams, data swamp issues and communication issues
+    \item Distributed: to address the challenges of scaling monolithic data systems 
+    \item Data as a service: to allow for increased discoverability of data and autonomy of various analysis and data science teams without frictions with data engineers
+    \item Governance through a federated service: the prevent team-based and rather immature decisions that may not be in-line with global organizational visions, policies, standards and procedures. 
+    \item Event driven: to address point-to-point communication issues that arises in distributed systems 
+\end{enumerate}
+
+Based on these principles the RA designed for the purposes of this study is presented in 
+
+\begin{figure}
+    
+\end{figure}
 
 %
 % ---- Bibliography ----
