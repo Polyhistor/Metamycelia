@@ -226,7 +226,8 @@ This RA is made up of 11 main components and 9 variable components, these compon
 \begin{enumerate}
     \item \textbf{Ingress Service:} this service is responsible for controlling traffic into the system. Depending on the nature of the request, this service will load balance either into a batch processing controller or a stream processing controller. Ingress is an asynchronous load balancer designed to eliminate choke points, handle SSL termination, and provide with extra features such as named-based virtual hosting. Having defined ingress allows for clear demarcation of the system boundaries, eliminates performance affecting security measures to be taken care of, allows for more private networks within the system, and can be used to augments objects too. 
     \item \textbf{Batch Processing Controller:} this controller is responsible for handling batch processes. That is, it is responsible for receiving request for batch processing, and communicating it to the event broker. Due to the batch nature of the requests, the controller can decide to achieve this in a bulk and asynchronous manner. This controller as opposed to its stream processing counterpart, can execute non compute-intensive proxy operations if needs be.
-    \item \textbf{} 
+    \item \textbf{Stream Processing Controller:} This controller achieves similar thing to the bath one, with a difference that it has to handle a different nature of requests. Stream events are synchronous in nature and require hight through-put. Having a specific service for stream processing requirements promote tailored customization that best suit the varying nature of stream events. 
+    \item \textbf{Event Broker:} 
 \end{enumerate}
 
 %
