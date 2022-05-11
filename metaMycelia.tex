@@ -244,9 +244,31 @@ The elements of the RA that are annotated with the phrase 'variable' can be modi
 
 \section*{Evaluation:}
 
-Of utmost importance to development of the RA, is the evaluation of it. Our aim is to evaluate the correctness and utility of the RA by how it can turn into a context-specific concrete architecture that solves an actual problem. ATAM can increase confidence in the RA, by appraising architectural decisions and their consequences on the system. For brevity purposes, we dot not expand on ATAM steps in detail or the benefits of it, and we only explain how the evaluation has been conducted. 
+Of utmost importance to development of the RA, is the evaluation of it. Our aim is to evaluate the correctness and utility of the RA by how it can turn into a context-specific concrete architecture that solves an actual problem. ATAM can increase confidence in the RA, by appraising architectural decisions and their consequences on the system. For brevity purposes, we dot not expand on ATAM steps in detail or the benefits of it, and we only explain how the evaluation has been conducted. Some details of this evaluation is omitted to protect the security, and intellectual property of the practice, and some details are modified for academic purposes. These modifications have not affected the integrity of the evaluation.  
 
+\subsection{Phase 1:}
+Evaluation has taken place in a subsidiary of an international large-scale company. The subsidiary company is specialized in practice management software for veterinary professionals visa Software as a Service ( SaaS ) providing services to hospitals all around world, among which is some of the biggest equine hospitals, and universities. The company has several ambitions, one of which is big data an AI. 
 
+Following the guidelines of ATAM, the first step was the identification of relevant stakeholders. Our emphasis was on key stakeholders such as lead architects. This was important to ensure that we have not missed anything major in our design. We also opted not to include stakeholders that do not directly correlate with the RA, such as the UI/UX designer. As a result we invited two lead development architects, head of product, a product owner responsible for the product in which the artifact is tested, a quality assurance engineer and several developers. 
+
+During the initial meeting, ATAM was presented with clear description of its purposes. From there on, the RA has been discussed, our assumptions have been stated, and variability points portrayed. In the second half, stakeholders discussed the background of the business and some of the challenges faced, and the current state of affairs. After that, the stakeholders unanimously selected a few business case that are the most relevant to the purposes of this study. 
+
+\subsection{Phase 2:}
+
+After the selection of appropriate scenarios and several good cases for BD processing, we instantiated a prototype of the RA. We utilized ISO/IEC 25000 SQuaRE standard (Software Product Quality Requirements
+and Evaluation) \cite{ISO25000} for technology selection. 
+
+We found mature technologies that could support our requirements, and opted not to develop any tools from scratch for the purposes of this study. It is also worth mentioning that, this prototype is a partial instantiation of the RA, that is aimed to solve a context specific problem. 
+
+As for the technology choices, we chose Node JS for all APIs and custom scripting, Nginx as our ingress, AWS Lambdas for stream and batch processing controllers, Kafka for event backbone, Kafka event brokers as the event broker, AWS application load balancer as the egress load balancer, Istio as the control tower, Envoy as the side car, Kubernetes as the container orchestrator, AWS S3 as the BD store and event archive( we used company's already in production data lake, with a test bucket in a staging environment ), and Data Bricks for stream and batch processing. 
+
+We aimed to incorporate most components of our RA into this instance, however logging, monitoring, service discovery, federated governance service, and data catalog has been omitted. 
+
+After this step, we presented the prototype, discussed our technology choices, highlighted quality attributes, and clarified confusions, questions. 
+
+\subsubsection{Identifying Architectural Approaches:}
+
+In this step, we discussed architectural styled in regards to quality attributes. We classified our architecture as micro-services. This was easier to grasp than 'domain-driven distributed architecture' for the stakeholders. For availability
 
 %
 % ---- Bibliography ----
