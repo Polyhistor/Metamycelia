@@ -290,7 +290,7 @@ For performance, we used the cloud stress testing agent called StressStimulus. W
 
 On the other hand, using Data Bricks for stream processing, we opted not to use micro-batch to have an accurate evaluation, we also decided not to configure the fair scheduling pool, so as to test the worst case scenario. After analyzing the prototype with various performance models (periodic data dispatch, large volume of data, many concurrent requests), it's become evident to us that latency, input/output, and object mutations were the performance sensitivity points. The event driven nature of the system really shined at handling various simulations. Based on these findings, we characterize system's performance as  Q\textsubscript{P} = h(l, s, c). That is, system is sensitive to latency (l), side effects (s), and concurrency (c).
 
-Next, we tested our prototype from availability point of view. Since the system is distributed in nature, the failure in one service, if not handled properly, can have a ripple effect on all services. This 
+Next, we tested our prototype from availability point of view. Since the system is distributed in nature, the failure in one service, if not handled properly, can have a ripple effect on all services. Our prototype could easily recover from such situation through implementation of circuit breakers in event brokers. Our prototype also archived the events before the failure occurred, to bring back the system to a correct state. 
 
 %
 % ---- Bibliography ----
