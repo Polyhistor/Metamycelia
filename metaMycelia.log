@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  12 MAY 2022 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  12 MAY 2022 22:21
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
@@ -260,12 +260,12 @@ Overfull \hbox (58.075pt too wide) in paragraph at lines 189--191
 \T1/cmr/m/n/9 https://www.supplychain247.com/paper/bi_data_and_ai_executive_survey_2021/pragmadik 
  []
 
-
+[18]
 Underfull \hbox (badness 3492) in paragraph at lines 244--246
 []\T1/cmr/m/n/9 International Or-ga-ni-za-tion for Stan-dard-iza-tion (ISO/IEC), I.: Iso/iec/ieee
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 266--268
 []\T1/cmr/m/n/9 White, A.: Our top data and an-a-lyt-ics pre-dicts for 2019 (2019),
  []
@@ -285,7 +285,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  32i,6n,25p,1200b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (19 pages, 280696 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (19 pages, 281534 bytes).
 PDF statistics:
  443 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
