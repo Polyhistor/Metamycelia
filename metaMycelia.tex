@@ -274,9 +274,19 @@ We then continued to analyze these approaches for tradeoffs, sensitivity points,
 
 \subsubsection{Scenario Prioritisation: }
 
-Scenarios are the quanta of ATAM, and help capturing stimuli to which the architecture has to respond. Based on this premise, in this step, we asked stakeholders to priorities three class of scenarios namely 1) growth scenarios, 2) use-case scenarios and 3) exploratory scenarios. As a result of this we pooled 20 requests, which we then asked stakeholders to vote on. The voting process yielded 5 scenarios, described as two user journeys; 1) 
+Scenarios are the quanta of ATAM, and help capturing stimuli to which the architecture has to respond. Based on this premise, in this step, we asked stakeholders to priorities three class of scenarios namely 1) growth scenarios, 2) use-case scenarios and 3) exploratory scenarios. As a result of this we pooled 20 requests, which we then asked stakeholders to vote on. The voting process yielded 5 scenarios, described as two user journeys; 1) The pet owner brings the pet to the veterinary hospital, the pet is diagnosed with cancer. The pet's environmental factors should be studied for potential clues on the root cause of cancer; 2) A pet owner brings the pet to the veterinary hospital, the cat symptoms should be processed for early detection of lyme disease. 
 
+\subsubsection{Utility Tree Elicitation: }
 
+In order to generate the utility tree, we first needed consensus on the most important quality attributes for this evaluation. We presented our assumptions and after a discussion, despite the fact that there was some concerns over privacy, the members agreed on availability, performance, and maintainability as the most important quality attributes. Based on that, we created the utility tree with the requirements of; 1) performance: system should be able to process real time streams under 1200 ms, 2) availability: load balancer and data bricks cluster being available 99.999\% of the time, and 3) modifiability: new service mesh to be added with less than 2 person a week.
+
+\subsubsection{Analyze Architectural Approaches: }
+
+After identifying architectural approaches and prioritizing scenarios, we ran the scenarios against our prototype. This is to provide heuristic qualitative analysis and point out sensitivity points and tradeoffs. We initiated this process by creating a custom script that extracts actual data from the company's mySQL database, and send it through the ingress. We create the necessary topics for Kafka, and configured Nginx to pass the requests to responsible lambdas for batch and stream processing. We then followed with event producers, Istio, Envoy, Kubernets, Data Bricks and the rest of the system. 
+
+In the process of running the scenario simulations against our system, we constantly probed our architectural approaches. Many implementation details arose in the process, and many sensitivity points annotated. We realized the true cost of the system, its trade offs and potential challenges. Based on these premises, and stakeholder feedbacks, we deduced that system quality Q\textsubscript{S}, is a function f of the quality attributes performance Q\textsubscript{P}, availability Q\textsubscript{A}, and modifiability Q\textsubscript{M}, as the equation Q\textsubscript{S} = fQ(Q\textsubscript{P}, Q\textsubscript{A}, Q\textsubscript{M}).
+
+For performance, we used the cloud stress testing agent called StressStimulus. We ran the stress test against our system a couple of times, which revealed some interesting insights. It became evident that cold start time (100-1000ms) of AWS Lambdas can affect the desired performance. One solution to this was replacement of Lambdas with EC2 instance, but we opted not to do that, because this would affect maintainability negatively, as each EC2 instance needs provisioning and maintenance. On the other hand, 
 
 %
 % ---- Bibliography ----
