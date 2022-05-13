@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  13 MAY 2022 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  13 MAY 2022 20:43
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
@@ -230,7 +230,10 @@ Package pdftex.def Info: Media/Metamycelium.jpg  used on input line 219.
  [10 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/Media/Metamycelium.jpg>]
 Underfull \vbox (badness 2158) has occurred while \output is active []
 
- [11] [12] [13] [14] [15] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl" [16]
+ [11] [12] [13] [14] [15]
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+ [16] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.bbl"
 Underfull \hbox (badness 4132) in paragraph at lines 26--31
 []\T1/cmr/m/n/9 Ataei, P., Litch-field, A.: Neomycelia: A soft-ware ref-er-ence ar-chi-tec-ture-
  []
@@ -250,7 +253,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 26--31
 \T1/cmr/m/n/9 tos, CA, USA (dec 2021). https://doi.org/10.1109/APSEC53868.2021.00052,
  []
 
-[17]
+[17] [18]
 Underfull \hbox (badness 10000) in paragraph at lines 189--191
 []\T1/cmr/m/n/9 Partners, N.: Big data and ai ex-ec-u-tive sur-vey 2021 (2021),
  []
@@ -260,12 +263,12 @@ Overfull \hbox (58.075pt too wide) in paragraph at lines 189--191
 \T1/cmr/m/n/9 https://www.supplychain247.com/paper/bi_data_and_ai_executive_survey_2021/pragmadik 
  []
 
-[18]
+
 Underfull \hbox (badness 3492) in paragraph at lines 244--246
 []\T1/cmr/m/n/9 International Or-ga-ni-za-tion for Stan-dard-iza-tion (ISO/IEC), I.: Iso/iec/ieee
  []
 
-
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 266--268
 []\T1/cmr/m/n/9 White, A.: Our top data and an-a-lyt-ics pre-dicts for 2019 (2019),
  []
@@ -275,19 +278,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--268
 \T1/cmr/m/n/9 https://blogs.gartner.com/andrew_white/2019/01/03/our-top-data-and-
  []
 
-) [19] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.aux") ) 
+) [20] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.aux") ) 
 Here is how much of TeX's memory you used:
  1881 strings out of 480795
  25660 string characters out of 2913777
- 269171 words of memory out of 3000000
+ 270171 words of memory out of 3000000
  17897 multiletter control sequences out of 15000+200000
  541742 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,6n,25p,1200b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,25p,1297b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (19 pages, 299903 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (20 pages, 302411 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
+ 456 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
