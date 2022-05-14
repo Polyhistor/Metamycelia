@@ -72,12 +72,7 @@ The initial design, development and deployment of a BD system is only the beginn
 This creates a perfect ground for immaute architectural decisions that result in hard-to-main and hard-to-scale systems, and raise high-entry blockage. Since ad-hoc BD designs are undesirable and leaves many engineers and architects in the dark, novel architectures that are specifically tailored for BD are required. To contribute to this goal, we explore the notion of reference architectures (RAs) and presented a domain-driven distributed software RA for BD systems.
 
 \section{Why Reference Architecture?}
-To rationalize why we have chosen RAs as the suitable artefact, we first have to clarify two underlying assumptions: 
-
-\begin{itemize}
-    \item a sound software architecture is integral to successful development and maintenance of software systems 
-    \item there is a substantial body of knowledge in the field of software architecture to support the development of an effective RA
-\end{itemize}
+To rationalize why we have chosen RAs as the suitable artefact, we first have to clarify two underlying assumptions: 1) a sound software architecture is integral to successful development and maintenance of software systems, and 2) there is a substantial body of knowledge in the field of software architecture to support the development of an effective RA.
 
 In essence, software architecture is an artefact that aims to satisfy business objectives through a software solution that is evolvable, const-efficient, maintainable, and scalable. In addition, it allows for capturing design issues when they are still cheap. Whereas this practice can be applied to any class of systems, it's particularly highlighted when it comes to design and development of complex system such as BD \cite{ataei2021neomycelia}. 
 
@@ -85,17 +80,7 @@ Despite the known complexity of BD systems, good news is that a RA can be develo
 
 This approach to system development is not new to practitioners of complex system. In software product line (SPL) development, RAs are utilized as generic artifacts that are instantiated and configured for a particular domain of systems \cite{Derras}. In software engineering, IT giants like IBM have referred to RAs as the 'best of best practices' to address complex and unique system design challenges \cite{Cloutier}. In other international standardization, RAs have been repeatedly used to standardize an emerging domain, a good example of this is BS ISO/IEC 18384-1 RA \cite{} for service oriented architectures \cite{Iso18384-1}. RAs are used for political speech and even NASA space data systems \cite{NASA}.
 
-Based on the premises discussed above, RAs can be considered effective for addressing the complexity of BD system development for the following reasons: 
-
-\begin{enumerate}
-    \item RAs adhere to best practices, patterns, and standards
-    \item RAs can endow the architecture team with increased openness and interoperability, incorporating architectural patterns that ensue desirable predefined quality attributes 
-    \item RAs can serve as the locus of communication, bringing various stakeholders together
-    \item RAs can be effective in identification and addressing of cross-cutting concerns 
-    \item RAs can be some of the best approaches to complex system development such as BD, capturing design problems when they are still cheap 
-    \item RAs can take the role of blueprint and summary in the portfolio of software architects and data engineers, resulting in better dissemination of knowledge 
-    \item RAs can manifest the implicit knowledge of software architects as explicit actionable models
-\end{enumerate}
+Based on the premises discussed above, RAs can be considered effective for addressing the complexity of BD system development for the following reasons; 1) RAs adhere to best practices, patterns, and standards, 2) RAs can endow the architecture team with increased openness and interoperability, incorporating architectural patterns that ensue desirable predefined quality attributes, 3) RAs can serve as the locus of communication, bringing various stakeholders together, 4) RAs can be effective in identification and addressing of cross-cutting concerns, 5) RAs can be some of the best approaches to complex system development such as BD, capturing design problems when they are still cheap, 6) RAs can take the role of blueprint and summary in the portfolio of software architects and data engineers, resulting in better dissemination of knowledge, 7) RAs can manifest the implicit knowledge of software architects as explicit actionable models.
 
 \section{Research Methodology}
 There are several approaches to systematic development of RAs. In one effort, Cloutier et al \cite{Cloutier} demonstrated a high-level model for development of RAs through collection of contemporary architectural patterns and advancements. Clouterier's approach is driven from the Stevens Institute of Technology forum for systems engineers and tend to explicate RAs from a system engineering point of view. In another effort, Bayer et al \cite{bayer1999pulse} introduced a method for creation of RAs for product line development called PuLSE DSSA. This methodology is inspired by the works of Kazman et al \cite{kazman1994saam} and in specific their architecture evaluation method; SAAM. Therefore it tends to pivot around scenarios for creation of candidate architectures which results in the intended RA. 
@@ -202,17 +187,9 @@ The key ingredient that embroil all these approaches is in their underlying mono
 
 To address these issues, we therefore explore a domain driven distributed architecture for BD systems and post that this architecture can address some of the challenges discussed. This architecture is inspired by the advancements in software engineering architectures, and in specific microservices \cite{bellemare2020building}, domain driven design \cite{evans2004domain}, and reactive systems \cite{aceto2007reactive}. 
 
-\section*{The Artefact}
+\section*{The Artifact}
 
-This artefact (RA) is built underlying several principles; 
-
-\begin{enumerate}
-    \item Domain-driven: to address data quality, siloed teams, data swamp issues and communication issues
-    \item Distributed: to address the challenges of scaling monolithic data systems 
-    \item Data as a service: to allow for increased discoverability of data and autonomy of various analysis and data science teams without frictions with data engineers
-    \item Governance through a federated service: the prevent team-based and rather immature decisions that may not be in-line with global organizational visions, policies, standards and procedures. 
-    \item Event driven: to address point-to-point communication issues that arises in distributed systems 
-\end{enumerate}
+This artefact (RA) is built underlying several principles; 1)Domain-driven: to address data quality, siloed teams, data swamp issues and communication issues, 2) Distributed: to address the challenges of scaling monolithic data systems, 3) Data as a service: to allow for increased discoverability of data and autonomy of various analysis and data science teams without frictions with data engineers, 4) Governance through a federated service: the prevent team-based and rather immature decisions that may not be in-line with global organizational visions, policies, standards and procedures, 5) Event driven: to address point-to-point communication issues that arises in distributed systems.
 
 Based on these principles the RA designed for the purposes of this study is presented in \ref{RA}
 
