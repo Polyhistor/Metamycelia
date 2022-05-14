@@ -5,8 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: splncs04.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
-Warning--I didn't find a database entry for "mckines"
-Warning--I didn't find a database entry for ""
 Warning--empty journal in AtaeiACIS
 Warning--empty journal in birukounexof
 Warning--empty year in birukounexof
@@ -16,45 +14,45 @@ Warning--empty year in GALSTER
 Warning--empty year in KazmanATAM
 Warning--empty journal in AtaeiHype
 Warning--empty year in Williams
-You've used 56 entries,
+You've used 57 entries,
             2850 wiz_defined-function locations,
-            918 strings with 15134 characters,
-and the built_in function-call counts, 31154 in all, are:
-= -- 2523
-> -- 1002
+            922 strings with 15397 characters,
+and the built_in function-call counts, 31496 in all, are:
+= -- 2549
+> -- 1009
 < -- 53
-+ -- 427
-- -- 356
-* -- 1928
-:= -- 3938
-add.period$ -- 77
-call.type$ -- 56
-change.case$ -- 377
++ -- 431
+- -- 358
+* -- 1946
+:= -- 3986
+add.period$ -- 78
+call.type$ -- 57
+change.case$ -- 382
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 2748
-empty$ -- 2862
-format.name$ -- 399
-if$ -- 6852
+cite$ -- 66
+duplicate$ -- 2784
+empty$ -- 2895
+format.name$ -- 401
+if$ -- 6922
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 556
-newline$ -- 174
-num.names$ -- 112
-pop$ -- 1153
+int.to.str$ -- 57
+missing$ -- 564
+newline$ -- 177
+num.names$ -- 114
+pop$ -- 1169
 preamble$ -- 1
-purify$ -- 289
+purify$ -- 292
 quote$ -- 0
-skip$ -- 875
+skip$ -- 881
 stack$ -- 0
-substring$ -- 1658
-swap$ -- 1488
+substring$ -- 1672
+swap$ -- 1504
 text.length$ -- 53
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 212
+type$ -- 216
 warning$ -- 9
-while$ -- 255
-width$ -- 58
-write$ -- 542
-(There were 11 warnings)
+while$ -- 258
+width$ -- 59
+write$ -- 553
+(There were 9 warnings)
