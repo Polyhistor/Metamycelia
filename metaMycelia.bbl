@@ -58,28 +58,10 @@ Bayer, J., Flege, O., Knauber, P., Laqua, R., Muthig, D., Schmid, K., Widen,
 Bellemare, A.: Building Event-Driven Microservices. " O'Reilly Media, Inc."
   (2020)
 
-\bibitem{Bengtsson}
-Bengtsson, P., Lassing, N., Bosch, J., van Vliet, H.: Architecture-level
-  modifiability analysis (alma). Journal of Systems and Software
-  \textbf{69}(1-2),  129--147 (2004)
-
-\bibitem{birukounexof}
-Birukou, A.: Nexof-ra
-
-\bibitem{buschmann1996pattern}
-Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., Stal, M.:
-  Pattern-oriented system architecture: a system of patterns, chapter 2.3
-  (1996)
-
 \bibitem{castellanos2021smart}
 Castellanos, C., Perez, B., Correal, D.: Smart transportation: A reference
   architecture for big data analytics. In: Smart Cities: A Data Analytics
   Perspective, pp. 161--179. Springer (2021)
-
-\bibitem{chen2011systematic}
-Chen, L., Babar, M.A.: A systematic review of evaluation of variability
-  management approaches in software product lines. Information and Software
-  Technology  \textbf{53}(4),  344--362 (2011)
 
 \bibitem{Cioroaica}
 Cioroaica, E., Chren, S., Buhnova, B., Kuhn, T., Dimitrov, D.: Towards creation
@@ -108,22 +90,6 @@ Evans, E., Evans, E.J.: Domain-driven design: tackling complexity in the heart
 \bibitem{GALSTER}
 GALSTER, M., AVGERIOU, P.: Empirically-grounded reference architectures. Joint
   ACM
-
-\bibitem{gamma1995design}
-Gamma, E., Helm, R., Johnson, R., Johnson, R.E., Vlissides, J., et~al.: Design
-  patterns: elements of reusable object-oriented software. Pearson Deutschland
-  GmbH (1995)
-
-\bibitem{graaf2005evaluating}
-Graaf, B., Van~Dijk, H., Van~Deursen, A.: Evaluating an embedded software
-  reference architecture-industrial experience report. In: Ninth European
-  Conference on Software Maintenance and Reengineering. pp. 354--363. IEEE
-  (2005)
-
-\bibitem{hallerbach2010capturing}
-Hallerbach, A., Bauer, T., Reichert, M.: Capturing variability in business
-  process models: the provop approach. Journal of Software Maintenance and
-  Evolution: Research and Practice  \textbf{22}(6-7),  519--546 (2010)
 
 \bibitem{Huberty}
 Huberty, M.: Awaiting the second big data revolution: from digital noise to
@@ -207,15 +173,6 @@ Rad, B.B., Ataei, P.: The big data ecosystem and its environs. International
 Rada, B.B., Ataeib, P., Khakbizc, Y., Akbarzadehd, N.: The hype of emerging
   technologies: Big data as a service  (2017)
 
-\bibitem{rohling2019reference}
-Rohling, A.J., Neto, V.V.G., Ferreira, M.G.V., Dos~Santos, W.A., Nakagawa,
-  E.Y.: A reference architecture for satellite control systems. Innovations in
-  Systems and Software Engineering  \textbf{15}(2),  139--153 (2019)
-
-\bibitem{rosemann2007configurable}
-Rosemann, M., Van~der Aalst, W.M.: A configurable reference modelling language.
-  Information systems  \textbf{32}(1),  1--23 (2007)
-
 \bibitem{sang2017simplifying}
 Sang, G.M., Xu, L., Vrieze, P.d.: Simplifying big data analytics systems with a
   reference architecture. In: Working Conference on Virtual Enterprises. pp.
@@ -226,19 +183,11 @@ Santos, J.F.M., Guessi, M., Galster, M., Feitosa, D., Nakagawa, E.Y.: A
   checklist for evaluation of reference architectures of embedded systems (s).
   In: SEKE. vol.~13, pp.~1--4 (2013)
 
-\bibitem{schmid2004customizable}
-Schmid, K., John, I.: A customizable approach to full lifecycle variability
-  management. Science of Computer Programming  \textbf{53}(3),  259--284 (2004)
-
 \bibitem{Shamseer}
 Shamseer, L., Moher, D., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M.,
   Shekelle, P., Stewart, L.A.: Preferred reporting items for systematic review
   and meta-analysis protocols (prisma-p) 2015: elaboration and explanation. Bmj
    \textbf{349} (2015)
-
-\bibitem{sinnema2006covamof}
-Sinnema, M., Deelstra, S., Hoekstra, P.: The covamof derivation process. In:
-  International Conference on Software Reuse. pp. 101--114. Springer (2006)
 
 \bibitem{sivarajah2017critical}
 Sivarajah, U., Kamal, M.M., Irani, Z., Weerakkody, V.: Critical analysis of big
@@ -258,11 +207,6 @@ Stricker, V., Lauenroth, K., Corte, P., Gittler, F., De~Panfilis, S., Pohl, K.:
   Creating a reference architecture for service-based systems--a pattern-based
   approach. In: Towards the Future Internet, pp. 149--160. IOS Press (2010)
 
-\bibitem{svahnberg2005taxonomy}
-Svahnberg, M., Van~Gurp, J., Bosch, J.: A taxonomy of variability realization
-  techniques. Software: Practice and experience  \textbf{35}(8),  705--754
-  (2005)
-
 \bibitem{wg2015iso}
 WG, I.: Iso/iec 26550: 2015-software and systems engineering--reference model
   for product line engineering and management. ISO/IEC, Tech. Rep  (2015)
@@ -270,10 +214,5 @@ WG, I.: Iso/iec 26550: 2015-software and systems engineering--reference model
 \bibitem{GartnerSury}
 White, A.: Our top data and analytics predicts for 2019 (2019),
   \url{https://blogs.gartner.com/andrew\_white/2019/01/03/our-top-data-and-analytics-predicts-for-2019/}
-
-\bibitem{Williams}
-Williams, L.G., Smith, C.U.: Pasasm: a method for the performance assessment of
-  software architectures. In: Proceedings of the 3rd international workshop on
-  Software and performance. pp. 179--189
 
 \end{thebibliography}
