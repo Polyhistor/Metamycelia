@@ -3,10 +3,6 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
-\bibitem{aceto2007reactive}
-Aceto, L., Ing{\'o}lfsd{\'o}ttir, A., Larsen, K.G., Srba, J.: Reactive systems:
-  modelling, specification and verification. cambridge university press (2007)
-
 \bibitem{analytics2016age}
 Analytics, M.: The age of analytics: competing in a data-driven world. Tech.
   rep., Technical report, San Francisco: McKinsey \& Company (2016),
@@ -43,10 +39,6 @@ Bayer, J., Flege, O., Knauber, P., Laqua, R., Muthig, D., Schmid, K., Widen,
   Proceedings of the 1999 symposium on Software reusability. pp. 122--131
   (1999)
 
-\bibitem{bellemare2020building}
-Bellemare, A.: Building Event-Driven Microservices. " O'Reilly Media, Inc."
-  (2020)
-
 \bibitem{Cloutier}
 Cloutier, R., Muller, G., Verma, D., Nilchiani, R., Hole, E., Bone, M.: The
   concept of reference architectures. Systems Engineering  \textbf{13}(1),
@@ -60,10 +52,6 @@ Computing, S.: Bridging the gap between data and business teams (2020),
 Derras, M., Deruelle, L., Douin, J.M., Levy, N., Losavio, F., Pollet, Y.,
   Reiner, V.: Reference architecture design: A practical approach. In: ICSOFT.
   pp. 633--640
-
-\bibitem{evans2004domain}
-Evans, E., Evans, E.J.: Domain-driven design: tackling complexity in the heart
-  of software. Addison-Wesley Professional (2004)
 
 \bibitem{GALSTER}
 GALSTER, M., AVGERIOU, P.: Empirically-grounded reference architectures. Joint
