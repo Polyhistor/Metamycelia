@@ -47,9 +47,9 @@
     as rapid technology change, organizational culture, complexities of data engineering,
     system development and big data architecture. The aim of this study is to facilitate
     the areas of big data architecture, data engineering and system development by introducing a domain driven distributed big data reference architecture. This artefact is
-    developed following the guidelines for an empirically grounded reference architecture
+    developed following the guidelines of 'empirically grounded reference architectures'
     and has been evaluated in a real-world scenario. A prototype of the artefact has been
-    instantiated and applied to solve a problem in practice. The results display a good degree of utility and applicability, alongside thought-proving architectural tradeoffs and
+    instantiated and applied to solve a problem in practice. The results display a good degree of utility and applicability, alongside some thought-proving architectural tradeoffs and
     challenges.
 
 \keywords{Big data architecture  \and Big data reference architecture \and Big data \and Data engineering \and Distributed systems.}
@@ -64,9 +64,9 @@ The ubiquity of digital devices and proliferation of software applications have 
 
 The rapid expansion and evolution of data from a structured element that is passively stored in the database to something that is used to support proactive decision making for business competitive advantage, have dawned a new era, the era of Big Data (BD). The era of BD began when velocity, variety and volume of data overwhelmed traditional systems used to process that data \cite{ataei2021neomycelia}\cite{AtaeiACIS}. 
 
-BD is the practice of crunching large sets of heterogenous data to discover patterns and insights for business competitive advantage \cite{AtaeiHype}. Since the inception of the term, ideas have ebbed and flowed along with the rapid advancements of technology, and many strived to harness the power of data. Nevertheless, BD is not a magical wand that can enchant any business processes and many have failed to absorb the complexity of this new field. According to a recent survey by MIT Technology Review insights in partnership with Databricks, only 13\% of organizations excel at delivering on their data strategy. Another survey by NewVantage Partners highlighted that only 24\% of organizations have successfully adopted BD \cite{NewVantageSurvey}. 
+BD is the practice of crunching large sets of heterogenous data to discover patterns and insights for business competitive advantage \cite{AtaeiHype}. Since the inception of the term, ideas have ebbed and flowed along with the rapid advancements of technology, and many strived to harness the power of BD. Nevertheless, BD is not a magical wand that can enchant any business processes and many have failed to absorb the complexity of this new field. According to a recent survey by MIT Technology Review insights in partnership with Databricks, only 13\% of organizations excel at delivering on their data strategy. Another survey by NewVantage Partners highlighted that only 24\% of organizations have successfully adopted BD \cite{NewVantageSurvey}. 
 
-Sigma computing report indicated that 1 in 4 business experts have given up on getting insights they needed because the data analysis took too long \cite{SigmaSurvey}. Along the lines, and Gartner \cite{GartnerSury} demonstrated that approximately only 20\% of organizations have fully adopted BD. These statistics unveil the truth that successful adoption of BD system is scarce. Among the challenges of adopting BD, the most highlighted are "cultural challenges of becoming data-driven", "BD architecture", "data engineering complexities", "rapid technology change", and "lack of sufficiently skilled data engineers" \cite{AtaeiBigDataEnvirons}. 
+Sigma computing report indicated that 1 in 4 business experts have given up on getting insights they needed because the data analysis took too long \cite{SigmaSurvey}. Along the lines, Gartner \cite{GartnerSury} demonstrated that approximately only 20\% of organizations have fully adopted BD. These statistics unveil the truth that successful adoption of BD system is scarce. Among the challenges of adopting BD, the most highlighted are "cultural challenges of becoming data-driven", "BD architecture", "data engineering complexities", "rapid technology change", and "lack of sufficiently skilled data engineers" \cite{AtaeiBigDataEnvirons}. 
 
 % In the past, organizations relied on a few technology giants to account for their analytics and storage needs, whereas today's ecosystem of BD encompasses far-reaching plethora of technologies ranging from visualization to high-level sql-like scripting languages to logging, stream processing and distributed storage. 
 
@@ -83,7 +83,7 @@ This creates a perfect ground for immature architectural decisions that result i
 
 In essence, software architecture is an artefact that aims to satisfy business objectives through a software solution that is evolvable, const-efficient, maintainable, and scalable. In addition, it allows for capturing design issues when they are still cheap. Whereas this practice can be applied to any class of systems, it's particularly highlighted when it comes to design and development of complex system such as BD \cite{ataei2021neomycelia}. Despite the known complexity of BD systems, good news is that a RA can be developed, analyzed and designed to incorporate best practices, techniques and patterns that will support the achievement of BD undertakings. This can help engineers and architect better absorb complexity of BD system development and make it tractable. 
 
-This approach to system development is not new to practitioners of complex system. In software product line (SPL) development, RAs are utilized as generic artifacts that are instantiated and configured for a particular domain of systems \cite{Derras}. In software engineering, IT giants like IBM have referred to RAs as the 'best of best practices' to address complex and unique system design challenges \cite{Cloutier}. In other international standardization, RAs have been repeatedly used to standardize an emerging domain, a good example of this is BS ISO/IEC 18384-1 RA for service oriented architectures \cite{Iso18384-1}. RAs are used for political speech and even NASA space data systems \cite{NASA}.
+This approach to system development is not new to practitioners of complex system. In software product line (SPL) development, RAs are utilized as generic artifacts that are instantiated and configured for a particular domain of systems \cite{Derras}. In software engineering, IT giants like IBM have referred to RAs as the 'best of best practices' to address complex and unique system design challenges \cite{Cloutier}. In other international standardization, RAs have been repeatedly used to standardize an emerging domain, a good example of this is BS ISO/IEC 18384-1 RA for service oriented architectures \cite{Iso18384-1}. In the same vein, RAs are used for political speech and even NASA space data systems \cite{NASA}.
 
 Based on the premises discussed above, RAs can be considered effective for addressing the complexity of BD system development for the following reasons; 1) RAs promote adherence to best practices, patterns, and standards, 2) RAs can endow the architecture team with increased openness and interoperability, incorporating architectural patterns that ensue desirable predefined quality attributes, 3) RAs can serve as the locus of communication, bringing various stakeholders together. 
 
@@ -110,20 +110,18 @@ There are several approaches to systematic development of RAs. In one effort, Cl
 
 
 
-Nguyen et al utilized reverse engineering and reference model for creation of agent systems reference architecture \cite{nguyen2010methodology}, and Norta \cite{norta2006developing} followed a pattern based approach similar to that of Stricket et al. Galster and Avgeriou \cite{GALSTER} proposed a 6 step methodology that is founded on two major concepts; 1) empirical foundation and 2) empirical validity.
+Nguyen et al utilized reverse engineering and reference model for creation of agent systems reference architecture \cite{nguyen2010methodology}, and Norta \cite{norta2006developing} followed a pattern based approach similar to that of Stricket et al. Additionally, Galster and Avgeriou \cite{GALSTER} proposed a 6 step methodology that is founded on two major concepts; 1) empirical foundation and 2) empirical validity.
 
 Analysis and study of these methodologies for design and development of RAs have highlighted several recurring themes.
 %  While some of the these studies are older and some are more recent, observed commonalities are similar.
 All these methodologies share the same fundamental pillars that 1) RAs should capture the essence of best practices, 2) RAs can be built by absorbing current best practices, standards, architectures, RAs, and systems, 3) RAs should sit at the right level of abstraction,
 %  and 4) RAs should be communicated effectively. 
 
-Taking all these into consideration, we found 'Empirically-grounded reference architectures' methodology proposed by Galster and Avgeriou as the suitable methodology for the purposes of this study. This decision is due to two factors; 1) this methodology is the most adopted approach for RA development, and 2) the focal elements surrounding the methodology is in-line with the objectives of this study. 
+Taking all these into consideration, we found 'empirically-grounded reference architectures' methodology proposed by Galster and Avgeriou as the suitable methodology for the purposes of this study. This decision is due to two factors; 1) this methodology is the most adopted approach for RA development, and 2) the focal elements surrounding the methodology is in-line with the objectives of this study. 
 
-Nevertheless, this methodology suffered from a few limitations and we had to augment several areas of it with other approaches in order to arrive at the desired rigour and relevance. For instance, we could not find comprehensive guidelines on how to collect empirical data in step 3 of the methodology. We did not know what kind of theory we should collect and how should we model the data collected. Lack of systematicity and transparency on this area, would undermine our overall approach, therefore we employed Nakagawa et al's information source investigation guidelines and the idea of RAModel \cite{nakagawa2012ramodel}. 
+Nevertheless, this methodology suffered from a few limitations and we had to augment several areas of it with other approaches in order to arrive at the desired rigour and relevance. For instance, we could not find comprehensive guidelines on how to collect empirical data in step 3 of the methodology. We did not know what kind of theory we should collect and how should we model the data collected. Thereby, we employed Nakagawa et al's information source investigation guidelines and the idea of RAModel \cite{nakagawa2012ramodel}. 
 
-Another area were we faced limitation was evaluation. The methodology did not provide detailed instructions on evaluation of the RA, thus, we looked for a more systematic and stronger evaluation approach. For this purposes, we first instantiated a prototype of the RA in a real world practice and then used the 'Architecture Tradeoff Analysis Method (ATAM)'\cite{KazmanATAM} to evaluate the artefact.
-
-The methodology chosen for this study is constituent of 6 steps which are respectively; 1) Decision on type of the RA, 2) Design strategy, 3) Empirical acquisition of data, 4) Construction of the RA, 5) Enable RA with variability, 6) Evaluation of the RA. 
+Another area were we faced limitation was evaluation. The methodology did not provide detailed instructions on evaluation of the RA, thus, we looked for a more systematic and stronger evaluation approach. For this purposes, we first instantiated a prototype of the RA in a real world practice and then used the 'Architecture Tradeoff Analysis Method (ATAM)'\cite{KazmanATAM} to evaluate the artefact. The methodology chosen for this study is constituent of 6 steps which are respectively; 1) Decision on type of the RA, 2) Design strategy, 3) Empirical acquisition of data, 4) Construction of the RA, 5) Enable RA with variability, 6) Evaluation of the RA. 
 
 % It is essential to clarify that the phrase 'empirically grounded' refers to two concepts; 1) RA should be based on well-established and proven principles, and 2) RAs should be evaluated for validity and applicability. These concepts do not only belong to the works of Galster and Avgeriou; other researchers such as Derras et al \cite{Derras} and Cloutier et al \cite{Cloutier} have promoted the same ideologies. 
 
@@ -199,16 +197,11 @@ Variability management is a well studied concept in Business Process Management 
 
 \subsection{Evaluation of the RA}
 
-This last phase of the methodology is to ensure that RA has achieved it's goal, and to test its effectiveness and usability. Based on Galster et al's work, a quality of the RA can be deduced based on its utility, correctness and how efficiently it can be adopted and instantiated.  
+This last phase of the methodology is to ensure that RA has achieved it's goal, and to test its effectiveness and usability. Based on Galster et al's work, a quality of the RA can be deduced based on its utility, correctness and how efficiently it can be adopted and instantiated. Howbeit, the evaluation of the RAs is a known challenge among researchers \cite{Avgeriou}, and while there are many well-established methods for assessing concrete architectures, many of these methodologies fall short in evaluating RAs. 
 
-Howbeit, the evaluation of the RAs is a known challenge among researchers \cite{Avgeriou}, and while there are many well-established methods for assessing concrete architectures, many of these methodologies fall short in evaluating RAs. 
-
-This is due to the inherent properties of RAs such as level of abstraction, and lack of clearly defined group of stakeholders. Various authors have attempted to solve this issue; for instance, Angelov et al's (\cite{angelov2008towards}) attempt on modifying ATAM and extended it to resonate well with RAs. 
+This is due to the inherent properties of RAs such as level of abstraction, and lack of clearly defined group of stakeholders. Various authors have attempted to solve this issue; for instance, Angelov et al's (\cite{angelov2008towards}) attempt on modifying ATAM and extended it to resonate well with RAs. Taking all the factors into consideration, and to provide with a rigorous evaluation, we will first instantiate a prototype of the RA, and then evaluate the prototype in practice, using ATAM. 
 
 % or Rohling et al's approach (\cite{rohling2019reference}) by mapping the business requirements against the RA, or the works of Graff et al (\cite{graaf2005evaluating}) and their attempt to extend SAAM to evaluate RAs by reducing the organizational impact in the evaluation process.
-
-
-Taking all the factors into consideration, and to provide with a rigorous evaluation, we will first instantiate a prototype of the RA, and then evaluate the prototype in practice, using ATAM. 
 
 \section{A Domain-driven Distributed RA for BD Systems}
 
@@ -238,20 +231,16 @@ The key ingredient that embroil all these approaches is in their underlying mono
 
 To address these issues, we therefore explore a domain driven distributed architecture for BD systems and posit that this architecture can address some of the challenges discussed. This architecture is inspired by the advancements in software engineering architectures, and in specific microservices, domain driven design, and reactive systems. 
 
-\section*{The Artifact}
+\section{The Artifact}
 
-This artefact (RA) is built underlying several principles; 1)Domain-driven: to address data quality, siloed teams, data swamp issues and communication issues, 2) Distributed: to address the challenges of scaling monolithic data systems, 3) Data as a service: to allow for increased discoverability of data and autonomy of various analysis and data science teams without frictions with data engineers, 4) Governance through a federated service: the prevent team-based and rather immature decisions that may not be in-line with global organizational visions, policies, standards and procedures, 5) Event driven: to address point-to-point communication issues that arises in distributed systems.
+This artefact (RA) is built underlying several principles; 1)Domain-driven: to address data quality, siloed teams, data swamp issues and communication issues, 2) Distributed: to address the challenges of scaling monolithic data systems, 3) Data as a service: to allow for increased discoverability of data and autonomy of various analysis and data science teams without frictions with data engineers, 4) Governance through a federated service: the prevent team-based and rather immature decisions that may not be in-line with global organizational visions, policies, standards and procedures, 5) Event driven: to address point-to-point communication issues that arises in distributed systems. Based on these principles, the RA designed for the purposes of this study is presented in \ref{RA}. This RA is made up of 11 main components and 9 variable components, these components are briefly discussed as below; 
 
-Based on these principles, the RA designed for the purposes of this study is presented in \ref{RA}. This RA is made up of 11 main components and 9 variable components, these components are briefly discussed as below; 
-
-\begin{figure}[h!]
+\begin{figure}[!h]
     \centering
-    \includegraphics[width=12cm]{media/Metamycelium.jpg}
+    \includegraphics[width=\textwidth]{media/Metamycelium.jpg}
     \label{RA}
     \caption{Domain Driven Distributed RA}
 \end{figure}
-
-
 
 \begin{enumerate}
     \item \textbf{Ingress Service:} this service is responsible for controlling traffic into the system. Depending on the nature of the request, this service will load balance either into a batch processing controller or a stream processing controller. Ingress is an asynchronous load balancer designed to eliminate choke points, handle SSL termination, and provide with extra features such as named-based virtual hosting. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  16 MAY 2022 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  16 MAY 2022 21:49
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/ECSA 2022 - Big Data Ra/latex-format/metaMycelia.tex"
@@ -209,11 +209,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7]
-<media/Metamycelium.jpg, id=31, 1528.71124pt x 715.67375pt>
+<media/Metamycelium.jpg, id=31, 1528.71124pt x 1169.36874pt>
 File: media/Metamycelium.jpg Graphic file (type jpg)
 <use media/Metamycelium.jpg>
-Package pdftex.def Info: media/Metamycelium.jpg  used on input line 249.
-(pdftex.def)             Requested size: 341.43306pt x 159.84026pt.
+Package pdftex.def Info: media/Metamycelium.jpg  used on input line 240.
+(pdftex.def)             Requested size: 347.12354pt x 265.52327pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -247,15 +247,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 Here is how much of TeX's memory you used:
  1820 strings out of 480795
  24439 string characters out of 2913777
- 269058 words of memory out of 3000000
+ 269056 words of memory out of 3000000
  17846 multiletter control sequences out of 15000+200000
  539606 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,6n,25p,1199b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (16 pages, 249324 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\ECSA 2022 - Big Data Ra\latex-format\metaMycelia.pdf" (16 pages, 306224 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
+ 391 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
