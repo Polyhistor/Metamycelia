@@ -1,55 +1,52 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: metaMycelia.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: splncs04.bst
-Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
 Warning--empty journal in AtaeiACIS
-Warning--empty year in Cioroaica
 Warning--empty year in Derras
 Warning--empty year in GALSTER
 Warning--empty year in KazmanATAM
 Warning--empty journal in AtaeiHype
-You've used 44 entries,
+You've used 33 entries,
             2850 wiz_defined-function locations,
-            849 strings with 13017 characters,
-and the built_in function-call counts, 23837 in all, are:
-= -- 1914
-> -- 778
-< -- 36
-+ -- 330
-- -- 276
-* -- 1459
-:= -- 3045
-add.period$ -- 62
-call.type$ -- 44
-change.case$ -- 298
+            781 strings with 10878 characters,
+and the built_in function-call counts, 16926 in all, are:
+= -- 1322
+> -- 581
+< -- 21
++ -- 246
+- -- 206
+* -- 1027
+:= -- 2195
+add.period$ -- 41
+call.type$ -- 33
+change.case$ -- 218
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 2108
-empty$ -- 2211
-format.name$ -- 307
-if$ -- 5236
+cite$ -- 38
+duplicate$ -- 1494
+empty$ -- 1587
+format.name$ -- 227
+if$ -- 3692
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 430
-newline$ -- 138
-num.names$ -- 88
-pop$ -- 915
+int.to.str$ -- 33
+missing$ -- 311
+newline$ -- 105
+num.names$ -- 66
+pop$ -- 687
 preamble$ -- 1
-purify$ -- 226
+purify$ -- 169
 quote$ -- 0
-skip$ -- 649
+skip$ -- 445
 stack$ -- 0
-substring$ -- 1214
-swap$ -- 1101
-text.length$ -- 36
+substring$ -- 797
+swap$ -- 753
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
-warning$ -- 6
-while$ -- 193
-width$ -- 46
-write$ -- 430
-(There were 6 warnings)
+type$ -- 122
+warning$ -- 5
+while$ -- 134
+width$ -- 35
+write$ -- 314
+(There were 5 warnings)
